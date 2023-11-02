@@ -1,8 +1,8 @@
 #  providing access_key and secret_key in code
 provider "aws" {
   region     = "ap-south-1"
-  access_key = "AKIAZYPIH46FXCBBQXSS"
-  secret_key = "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"
+  access_key = "access_key"
+  secret_key = "secret_key "
 }
 resource "aws_instance" "myec2" {
   ami           = "ami-05c0f5389589545b7"
